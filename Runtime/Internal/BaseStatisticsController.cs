@@ -1,14 +1,11 @@
 using System.Collections.Generic;
 
-using BBUnity.CharacterStatistics.Internal;
+namespace BBUnity.Statistics.Internal {
 
-namespace BBUnity {
-
-    public class Statistics {
-
+    public class BaseStatisticsController {
         /// <summary>
         /// The internal collection for the statistics. This is populated
-        /// upon creation
+        /// upon creation via Reflection
         /// </summary>
         Dictionary<int, BaseStatistic> _statistics = null;
     }

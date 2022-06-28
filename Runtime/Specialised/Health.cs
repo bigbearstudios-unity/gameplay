@@ -1,7 +1,7 @@
 using BBUnity;
-using BBUnity.CharacterStatistics.Internal;
+using BBUnity.Statistics.Internal;
 
-namespace BBUnity.CharacterStatistics.StaticStatistics {
+namespace BBUnity.Statistics.Specialised {
     public interface IHealth : IBaseStatistic {
         void OnHealthDecreased();
         void OnHealthIncrease();
@@ -9,9 +9,6 @@ namespace BBUnity.CharacterStatistics.StaticStatistics {
     }
 
     class Health : BaseStatistic {
-        private uint _currentHealth;
-        private uint _maximumHealth;
-
         //BehaviourDelegate<IHealth> _delegate;
     }
 }
