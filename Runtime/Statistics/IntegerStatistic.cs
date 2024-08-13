@@ -1,11 +1,11 @@
-using BBUnity.Statistics.Internal;
+//using BBUnity.Statistics.Internal;
 
-namespace BBUnity.Statistics.Generics {
+namespace BBUnity.Gameplay.Statistics {
 
     /// <summary>
     /// A wrapper around an int based statistic 
     /// </summary>
-    class IntStatisic : BaseStatistic {
+    class IntStatisic {
 
         private int _value;
         private int _maximumValue;

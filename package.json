@@ -1,0 +1,29 @@
+{
+  "name": "com.bigbearstudios.bbunity-gameplay",
+  "version": "0.0.1",
+  "displayName": "BBUnity Gameplay",
+  "description": "Validation library for Unity - Requires Unity / C# to use",
+  "unity": "2018.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/big-bear-studios-open-source/bbunitygameplay.git"
+  },
+  "bugs": "https://gitlab.com/big-bear-studios-open-source/bbunitygameplay/-/issues",
+  "author": {
+    "name": "Big Bear Studios",
+    "email": "development@bigbearstudios.co.uk",
+    "url": "https://bigbearstudios.co.uk/opensource"
+  },
+  "contributors": [
+    {
+      "name": "Stuart Farnaby",
+      "email": "stuart@bigbearstudios.co.uk"
+    }
+  ],
+  "dependencies": {
+    "com.bigbearstudios.bbunity-test-support": "1.2.0"
+  },
+  "scripts": {
+    "publish": ""
+  }
+}
