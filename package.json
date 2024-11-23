@@ -1,6 +1,6 @@
 {
   "name": "com.bigbearstudios.bbunity-gameplay",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "displayName": "BBUnity Gameplay",
   "description": "A collection of game play utilities; These include statistic, inventory, combat and leveling systems.",
   "unity": "2018.3",
