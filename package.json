@@ -1,14 +1,14 @@
 {
   "name": "com.bigbearstudios.bbunity-gameplay",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "displayName": "BBUnity Gameplay",
-  "description": "Validation library for Unity - Requires Unity / C# to use",
+  "description": "A collection of game play utilities; These include statistic, inventory, combat and leveling systems.",
   "unity": "2018.3",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/big-bear-studios-open-source/bbunitygameplay.git"
+    "url": "https://github.com/bigbearstudios-unity/gameplay.git"
   },
-  "bugs": "https://gitlab.com/big-bear-studios-open-source/bbunitygameplay/-/issues",
+  "bugs": "https://github.com/bigbearstudios-unity/gameplay/issues",
   "author": {
     "name": "Big Bear Studios",
     "email": "development@bigbearstudios.co.uk",
@@ -21,9 +21,6 @@
     }
   ],
   "dependencies": {
-    "com.bigbearstudios.bbunity-test-support": "1.2.0"
-  },
-  "scripts": {
-    "publish": ""
+    "com.bigbearstudios.bbunity-test-support": "2.1.1"
   }
 }
