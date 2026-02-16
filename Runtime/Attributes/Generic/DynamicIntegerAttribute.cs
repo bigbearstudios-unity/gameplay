@@ -28,6 +28,7 @@ namespace BBUnity.Gameplay.Attributes.Generic {
         public int Minimum { get { return _minimum; } }
         public int Maximum { get { return _maximum; } }
         public int Current { get { return _current; } }
+        public bool IsZero { get { return _current == 0; } }
 
         public OnChange onChange;
 

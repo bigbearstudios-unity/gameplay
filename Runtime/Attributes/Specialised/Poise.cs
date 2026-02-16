@@ -42,6 +42,8 @@ namespace BBUnity.Gameplay.Attributes.Specialised {
         }
 
         public void TakeDamage(int damage) {
+            if (IsZero) { return; }
+
             DecreaseBy(damage);
             IncreaseFlitchValue(damage);
             ResetRegenerationTimer();
