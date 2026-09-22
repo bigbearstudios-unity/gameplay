@@ -63,5 +63,11 @@ namespace BBUnity.Gameplay.Attributes.Generic {
 
             onChange?.Invoke(_current, _minimum, _maximum);
         }
+
+        // Default "take damage" behaviour, used generically by AttributeBasedCombatController.
+        // Overridden by a subclass whose damage has extra side effects — see Poise.TakeDamage.
+        public virtual void TakeDamage(int amount) {
+            DecreaseBy(amount);
+        }
     }
 }

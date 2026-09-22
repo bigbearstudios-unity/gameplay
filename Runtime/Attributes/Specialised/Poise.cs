@@ -41,7 +41,7 @@ namespace BBUnity.Gameplay.Attributes.Specialised {
             _flitchCounter += amount;
         }
 
-        public void TakeDamage(int damage) {
+        public override void TakeDamage(int damage) {
             if (IsZero) { return; }
 
             DecreaseBy(damage);

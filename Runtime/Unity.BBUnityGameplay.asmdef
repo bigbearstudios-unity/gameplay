@@ -2,7 +2,11 @@
     "name": "Unity.BBUnityGameplay",
     "rootNamespace": "",
     "references": [
-        "Unity.BBUnityCore"
+        "Unity.BBUnityCore",
+        "Unity.BBUnityPools",
+        "Unity.BBUnityStateMachine",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
